@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab8", "lab8\lab8.vcxproj", "{ECF39C61-1DAC-43E3-B30B-8AB751A40943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Debug|x64.ActiveCfg = Debug|x64
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Debug|x64.Build.0 = Debug|x64
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Debug|x86.Build.0 = Debug|Win32
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Release|x64.ActiveCfg = Release|x64
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Release|x64.Build.0 = Release|x64
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Release|x86.ActiveCfg = Release|Win32
+		{ECF39C61-1DAC-43E3-B30B-8AB751A40943}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F68C09-88CA-4FE6-BF88-C5DF2F5F2EC0}
+	EndGlobalSection
+EndGlobal
