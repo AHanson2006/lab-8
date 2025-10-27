@@ -8,12 +8,13 @@ int main() {
 	string str;
 	int charCount = 0;
 
-
-	cout << "Enter string: ";
-	getline(cin, str);
-
-	cout << endl << countVowel(str) << " Vowels.";
-
+	do {
+		cout << "Enter string: ";
+		getline(cin, str);
+		if (str != "q" && str != "Q") {
+			cout << endl << countVowel(str) << " Vowels." << endl;
+		}
+	} while (str != "q" && str != "Q");
 	
 }
 
