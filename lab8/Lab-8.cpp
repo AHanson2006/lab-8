@@ -6,15 +6,25 @@ int countCharacter(string str);
 
 int main() {
 	string str;
+	int charCount = 0;
 
 	cout << "Enter string: ";
-	cin >> str;
+	getline(cin, str);
 
-	cout << countCharacter(str);
+	cout << endl << countCharacter(str) << " Characters.";
+
+	
 }
 
 int countCharacter(string str) {
-	int charCount = size(str);
+	
+	int charCount = 0;
+	
+	for (int i = 0; i < size(str); i++) {
+		if (str[i] != ' ') {
+			charCount++;
+		}
+	}
 
 	return charCount;
 }
